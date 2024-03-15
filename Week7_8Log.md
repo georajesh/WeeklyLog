@@ -12,7 +12,7 @@ Total Time worked on: 1 Hour 30 Minutes
 - [ ] Enable the Compute Engine API, which can be located from your project overview (Use cntrl f to help locate it.) Except this process to take a few minutes.
 - [ ] From the Compute Engine VM instances, interface click, create instance. (Take note of the status field which indicates if it is running, important to monitor considering it costs money.)
 - [ ] Give it an appropriate name then, change the bootdisk, within the bootdisk select custom image, from here view all and change the source to Shawn's ArcGIS server, then select the image that is available from this source.
-- [ ] Next change the firewall to allow HTTP and HTTPS acces (ports 80 and 443 respectively), note after this is created the VM has to be edited to allow traffic from port 6443.
+- [ ] Next change the firewall to allow HTTP and HTTPS acces (ports 6080 and 6443 respectively), note after this is created the VM has to be edited to allow traffic from port 6443.
 
 ### Setting up Firewall Rules (10 minutes)
 - [ ] After the VM is created select "setup firewall rules" then click "create firewall rule", under "Target" use the dropdown menu and select "all instances in this network" then locate "Source IPv-4" ranges and input "0.0.0.0/0" then go to the "protocals and ports" section, under "specified protocols and ports" under TCP ports input "6443" finally click create to finish the firewall rule.
