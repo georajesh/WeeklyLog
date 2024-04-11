@@ -3,7 +3,7 @@ Objective: Explore solution related to Indoor Floor Navigation Problem
 
 March 17 - 30, 2024
 
-Total Time worked on: aprox. 7 hours
+Total Time worked on: aprox. 5 hours
 
 > These two weeks were quite exploratory. While other team members were working on ESRI side of the solution, I found an exciting repository on GitHub which was employing QGIS and Leaflet to solce Indoor floor related problems. Also, this solution didn't work for me because later I realized the data we have, we didn't have the full right to create 3D surface on it and also, the site that was suppose to processon the geojson files went down. So, these to items are very much mandatory to froceed with this approach.
 
