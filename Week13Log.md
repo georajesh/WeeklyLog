@@ -7,7 +7,7 @@ With all four group member's agreement, I created a Github repository https://gi
 ## Getting started with Web Designing (120 Minutes)
 Applying the skills developed from GEOM 101 and implementing the ideas from assignments and project completed in GEOM 101 from last term, landing page for our project is created.
 - [ ] Application of ArcGIS Maps SDK for JavaScript
-
+'javascript'
         require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
         esriConfig.apiKey = "API Key";
       
